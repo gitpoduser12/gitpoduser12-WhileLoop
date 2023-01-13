@@ -1,0 +1,5 @@
+tasks:
+  - init: git remote set-url origin git@github.com:gitpoduser12/gitpoduser12-WhileLoop.git && sed "s/\r$//" commit-command.sh | bash && gp open README.md
+vscode:
+ extensions:
+   - kyntrack.gitpod-plugin
